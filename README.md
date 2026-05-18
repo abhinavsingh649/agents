@@ -10,9 +10,9 @@ I couldn't be more excited to welcome you! This is the start of your 6 week adve
 
 ### Before you begin
 
-I'm here to help you be most successful! Please do reach out if I can help, either in the platform or by emailing me direct (ed@edwarddonner.com). It's always great to connect with people on LinkedIn to build up the community - you'll find me here:  
-https://www.linkedin.com/in/eddonner/  
-And this is new to me, but I'm also trying out X/Twitter at [@edwarddonner](https://x.com/edwarddonner) - if you're on X, please show me how it's done 😂  
+I'm here to help you be most successful! Please do reach out if I can help. It's always great to connect with people to build up the community - you'll find my GitHub here:  
+https://github.com/abhinavsingh649/  
+You can also follow my updates and projects there.
 
 ### The not-so-dreaded setup instructions
 
@@ -54,7 +54,7 @@ Then please keep in mind for Crew:
 - The course [resources](https://edwarddonner.com/2025/04/21/the-complete-agentic-ai-engineering-course/) with videos
 - Many essential guides in the [guides](guides/01_intro.ipynb) section
 - The [troubleshooting](setup/troubleshooting.ipynb) notebook  
-- My overall [FAQ](https://edwarddonner.com/faq) page with common issues and questions
+- My overall FAQ page with common issues and questions
 
 ### API costs - please read me!
 
@@ -66,4 +66,4 @@ Be sure to monitor your API costs to ensure you are totally happy with any spend
 
 ### ABOVE ALL ELSE -
 
-Be sure to have fun with the course! You could not have picked a better time to be learning about Agentic AI. I hope you enjoy every single minute! And if you get stuck at any point - [contact me](https://www.linkedin.com/in/eddonner/).
+Be sure to have fun with the course! You could not have picked a better time to be learning about Agentic AI. I hope you enjoy every single minute! And if you get stuck at any point - [contact me](https://github.com/abhinavsingh649/).
