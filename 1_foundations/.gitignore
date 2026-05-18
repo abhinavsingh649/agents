@@ -1,0 +1,6 @@
+community_contributions/
+community-contributions/
+*.ipynb
+__pycache__/
+.venv/
+.env
