@@ -64,6 +64,13 @@ Details are [here](guides/09_ai_apis_and_ollama.ipynb).
 
 Be sure to monitor your API costs to ensure you are totally happy with any spend. For OpenAI, the dashboard is [here](https://platform.openai.com/usage).
 
+### New Features in Lab 2
+
+The `2_lab2.ipynb` notebook has been heavily modified to include:
+- **Groq Llama-3.3 Integration**: Upgraded the standard OpenAI client to use the bleeding-edge `llama-3.3-70b-versatile` model on Groq's extremely fast API.
+- **Dynamic IMAP Email Polling**: Replaced hardcoded text responses with a robust IMAP-based inbox polling mechanism using `imap-tools`. The notebook now securely checks your real email inbox for unread (and read) replies to the generated cold emails, extracts the response body, and feeds it dynamically into the Customer Success `ReplyAgent`.
+- **Handoff Enhancements**: Strengthened the LangGraph-style agent routing where multiple agents write subject lines and HTML bodies in parallel before a final manager executes the SendGrid API tool.
+
 ### ABOVE ALL ELSE -
 
 Be sure to have fun with the course! You could not have picked a better time to be learning about Agentic AI. I hope you enjoy every single minute! And if you get stuck at any point - [contact me](https://github.com/abhinavsingh649/).
