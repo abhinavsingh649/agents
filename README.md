@@ -71,6 +71,16 @@ The `2_lab2.ipynb` notebook has been heavily modified to include:
 - **Dynamic IMAP Email Polling**: Replaced hardcoded text responses with a robust IMAP-based inbox polling mechanism using `imap-tools`. The notebook now securely checks your real email inbox for unread (and read) replies to the generated cold emails, extracts the response body, and feeds it dynamically into the Customer Success `ReplyAgent`.
 - **Handoff Enhancements**: Strengthened the LangGraph-style agent routing where multiple agents write subject lines and HTML bodies in parallel before a final manager executes the SendGrid API tool.
 
+### Deep Research (Lab 4 Modularized)
+
+The `2_openai/deep_research/` directory contains a fully modularized version of the Lab 4 LangGraph code. Instead of running as a single notebook, the code is split into focused components:
+- `deep_research.py`: The core orchestrator that ties the agents together.
+- `planner_agent.py`: Outlines research strategies.
+- `search_agent.py`: Executes web searches based on the plan.
+- `writer_agent.py`: Drafts the final output based on search findings.
+- `email_agent.py`: Handles formatting the research into a professional email format.
+- `research_manager.py`: Manages the overall execution state and transitions.
+
 ### ABOVE ALL ELSE -
 
 Be sure to have fun with the course! You could not have picked a better time to be learning about Agentic AI. I hope you enjoy every single minute! And if you get stuck at any point - [contact me](https://github.com/abhinavsingh649/).
